@@ -5,6 +5,6 @@ node {
 stage(' maven package') {
   def java = tool name: 'jdk', type: 'jdk'
   def mvnhome = tool name: 'maven', type: 'maven'
-  sh "jdk=$javaHome$ {mvnhome}/bin/mvn package"
+  sh "jdk=$javaHome ${mvnhome}/bin/mvn package"
   }
 }
