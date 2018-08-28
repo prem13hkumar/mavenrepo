@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://18.212.241.138:8081/repository/sample-release/</url>
+            <url>http://54.187.115.242:8081/repository/sample-release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://18.212.241.138:8081/repository/sample-snap/</url>
+            <url>http://54.187.115.242:8081/repository/sample-snap/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
